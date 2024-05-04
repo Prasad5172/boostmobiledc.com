@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media (max-width:770px) {
+  .invisible {
+    display:none;
+  }
+}
+
+.marginx-25px{
+  margin:0 25px 0 25px;
+}
+.margint-20px{
+  margin-top: 20px;
+}
+.margint-10px{
+  margin-top: 10px;
+}
+
+.padding-50px{
+  padding: 50px;
+}
+/* Hide thumbnails */
+.thumbs-wrapper {
+  display: none;
+}
+.carousel-status{
+  display: none;
+}
+/* Styles for left and right navigation buttons */
+.control-arrow {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px; /* Adjust width as needed */
+}
+
+.control-prev {
+  left: 0;
+}
+
+.control-next {
+  right: 0;
+}
+
+/* Styles for arrow icons */
+.carousel-root {
+  width: 100%;
+}
+.carousel-root .control-next {
+  display: none;
+}
+.carousel-root .control-prev {
+  display: none;
+}
+.slide div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.carousel .control-dots .dot{
+  background-color: #6b7280 !important;
+}
+nav{
+  padding-left: 0px !important;
+}
+/* Make the label bold when the radio button is checked, except for the one with ID full-time */
+input[type='radio']:checked + label .font-normal {
+  font-weight: bold;
+}
+.home_contact {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 6px;
+}
+.home_contact{
+  background-color: none !important;
+}
+.home_contact h1{
+  font-size: 0;
+}
+.home_contact .form_field{
+  margin-bottom: 4px !important;
+}
+.home_contact .label{
+  margin-bottom: 4px !important;
+}
+.home_contact .input_tag{
+  padding: 0.5rem !important;
+}
+.home_contact .outer{
+  padding: 20px !important;
+  padding-top: 10px !important;
+  margin-block: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@media (max-width:450px) {
+  .grid-2-cols {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap')
