@@ -3,10 +3,17 @@ import {useNavigate} from "react-router-dom";
 import FAQs from '../../Comp/FAQs'
 
 function PayAsYouGoContent({place,city}) {
+
   const navigate = useNavigate();
   var towns = [["Martinsburg","WV"],["Charles Town","WV"],["Frederick","MD"],["District Heights","MD"],["Edgewood","PA"],["Hagerstown","MD"]];
   function replaceSpacesWithHyphens(str) {
     return str.replace(/\s+/g, '-');
+  }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Smooth scrolling animation
+    });
   }
   return (
     <div className="p-5 pt-0">
@@ -25,7 +32,7 @@ function PayAsYouGoContent({place,city}) {
                 return (
                   <li><p onClick={() => {
                     navigate(`/pay-as-you-go-phone-${replaceSpacesWithHyphens(ele[0]).toLowerCase()}-${ele[1].toLowerCase()}`)
-                    window.scrollTo(0,0)
+                    scrollToTop()
                   }} className='text-orange-500 hover:underline cursor-pointer'>Pay-as-You-Go Phone in {ele[0]}, {ele[1]}</p></li>
                 )
               }

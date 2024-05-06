@@ -9,6 +9,12 @@ function PhoneBillContent({place,city}) {
   function replaceSpacesWithHyphens(str) {
     return str.replace(/\s+/g, '-');
   }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Smooth scrolling animation
+    });
+  }
   return (
     <div className="p-5 pt-0">
         <h1 className='font-semibold text-[25px] mb-5'>When you make the switch to Boost Mobile, it’s easier than ever to pay your phone bill.</h1>
@@ -26,7 +32,7 @@ function PhoneBillContent({place,city}) {
                 return (
                   <li key={ind}><p onClick={() => {
                   navigate(`/pay-your-phone-bill-${replaceSpacesWithHyphens(ele[0]).toLowerCase()}-${ele[1].toLowerCase()}`)
-                  window.scrollTo(0, 0)
+                  scrollToTop()
                   }} className='text-orange-500 hover:underline cursor-pointer'>Pay Your Phone Bill in  {ele[0]}, {ele[1]}</p></li>
                 )
               }

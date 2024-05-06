@@ -8,6 +8,12 @@ function CellCompanyContent({place,city}) {
   function replaceSpacesWithHyphens(str) {
     return str.replace(/\s+/g, '-');
   }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Smooth scrolling animation
+    });
+  }
   return (
     <div className="p-5 pt-0">
         <h1 className='font-semibold text-[25px] mb-5'>If you are looking for a cell phone company that offers the flexibility you need, you can turn to our team.</h1>
@@ -24,7 +30,7 @@ function CellCompanyContent({place,city}) {
                 return (
                   <li key={ind}><p onClick={() => {
                   navigate(`/cell-phone-company-${replaceSpacesWithHyphens(ele[0]).toLowerCase()}-${ele[1].toLowerCase()}`)
-                  window.scrollTo(0, 0)
+                  scrollToTop()
                   }} className='text-orange-500 hover:underline cursor-pointer'>Cell Phone Company in {ele[0]}, {ele[1]}</p></li>
                 )
               }

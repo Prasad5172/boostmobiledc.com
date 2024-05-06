@@ -5,9 +5,11 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
+import { useNavigate } from "react-router-dom";
  
 export default function NavComp() {
   const [openNav, setOpenNav] = React.useState(false);
+  const navigate = useNavigate();
  
   React.useEffect(() => {
     window.addEventListener(
@@ -24,9 +26,9 @@ export default function NavComp() {
         color="blue-gray"
         className="flex items-center gap-x-2 p-1 font-medium"
       >
-        <a href="/" className="flex items-center text-black">
-          Pages
-        </a>
+        <p onClick={() => navigate("/")} className="flex items-center text-black text-[22px] cursor-pointer lg:font-bold xl:font-bold 2xl:font-bold">
+          Home
+        </p>
       </Typography>
       <Typography
         as="li"
@@ -34,9 +36,9 @@ export default function NavComp() {
         color="blue-gray"
         className="flex items-center gap-x-2 p-1 font-medium"
       >
-        <a href="/" className="flex items-center text-black">
-          Account
-        </a>
+        <p onClick={() => navigate("/locations")} className="flex items-center text-black text-[22px] cursor-pointer lg:font-bold xl:font-bold 2xl:font-bold">
+          Locations
+        </p>
       </Typography>
       <Typography
         as="li"
@@ -44,9 +46,9 @@ export default function NavComp() {
         color="blue-gray"
         className="flex items-center gap-x-2 p-1 font-medium"
       >
-        <a href="/" className="flex items-center text-black">
-          Blocks
-        </a>
+        <p onClick={() => navigate("/internet")} className="flex items-center text-black text-[22px] cursor-pointer 2xl:font-bold xl:font-bold lg:font-bold">
+          Internet
+        </p>
       </Typography>
       <Typography
         as="li"
@@ -54,9 +56,19 @@ export default function NavComp() {
         color="blue-gray"
         className="flex items-center gap-x-2 p-1 font-medium"
       >
-        <a href="/" className="flex items-center text-black">
-          Docs
-        </a>
+        <p onClick={() => navigate("/careers")} className="flex items-center text-black text-[22px] cursor-pointer lg:font-bold xl:font-bold 2xl:font-bold">
+          Careers
+        </p>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="flex items-center gap-x-2 p-1 font-medium"
+      >
+        <p onClick={() => navigate("/contact-boost-mobile")} className="flex items-center text-black text-[22px] cursor-pointer lg:font-bold xl:font-bold 2xl:font-bold">
+          Contact Us
+        </p>
       </Typography>
     </ul>
   );

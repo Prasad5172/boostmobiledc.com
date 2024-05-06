@@ -9,6 +9,12 @@ function MobilePlansContent({place,city}) {
   function replaceSpacesWithHyphens(str) {
     return str.replace(/\s+/g, '-');
   }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Smooth scrolling animation
+    });
+  }
   return (
     <div className="p-5 pt-0">
         <h1 className='font-semibold text-[25px] mb-5'>Our Boost Mobile phone plans offer the flexibility you need to get great service at an affordable price.</h1>
@@ -25,7 +31,7 @@ function MobilePlansContent({place,city}) {
                 return (
                   <li key={ind}><p onClick={() => {
                     navigate(`/boost-mobile-phone-plans-${replaceSpacesWithHyphens(ele[0]).toLowerCase()}-${ele[1].toLowerCase()}`)
-                    window.scrollTo(0, 0)
+                    scrollToTop()
                     }} className='text-orange-500 hover:underline cursor-pointer'>Boost Mobile Phone Plans in {ele[0]}, {ele[1]}</p></li>
                 )
               }

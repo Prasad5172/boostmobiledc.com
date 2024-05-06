@@ -3,8 +3,8 @@ import React from "react";
 function BoostPlans() {
   return (
     <>
-      <div className="container mx-auto  md:my-10 lg:my-20 xl:my-20 2xl:mt-20">
-        <div className="flex lg:flex-row xl:flex-row 2xl:flex-row flex-col ">
+      <div className="container   md:my-10 lg:my-20 xl:my-20 2xl:mt-20">
+        <div className="flex lg:flex-row xl:flex-row 2xl:flex-row flex-col xl:mx-20 2xl:mx-20">
           <div class="lg:basis-2/3 xl:basis-2/3 2xl:basis-2/3">
             <div>
               <div>

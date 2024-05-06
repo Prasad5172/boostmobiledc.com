@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React,{useState} from 'react'
 import { Routes, Route, useNavigate } from "react-router-dom"
 import NavComp from "./Comp/NavComp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,9 +27,11 @@ import ContactForm from './Comp/ContactForm';
 
 
 function App() {
+  const [isContactOpen, setIsContactOpen] = useState(false);
+
   const handleContact = () => {
-    document.getElementById("home_contact").classList.toggle("hidden");
-  }
+    setIsContactOpen(!isContactOpen);
+  };
   return (
 
     <>
@@ -39,14 +41,6 @@ function App() {
         </header>
         <Routes>
           <Route exact path='/' element={<HomePage />}/>
-            {/* <Route exact path='/contact-boost-mobile' element={ <ContactUs/>}>
-              <Route exact path="/" element={<HomeBeforeSignup search={isSearchVisible} setState={setSerchVisible} handleClick={handleClick} isAuthenticated={isAuthenticated} setAuthenticated={setAuthenticated} handlePause={handlePause} />} />
-              <Route exact path='/section/:id' element={<ShowallPage search={isSearchVisible} setState={setSerchVisible} handleClick={handleClick} isAuthenticated={isAuthenticated} setAuthenticated={setAuthenticated} handlePause={handlePause} />} />
-              <Route exact path='/search' element={<SearchDiv />} />
-              <Route exact path='/playlists/:id' element={<Playlist search={isSearchVisible} setState={setSerchVisible} handleClick={handleClick} isAuthenticated={isAuthenticated} setAuthenticated={setAuthenticated} handlePause={handlePause} />} />
-              <Route exact path='/geners/:id' element={<Geners search={isSearchVisible} setState={setSerchVisible} handleClick={handleClick} isAuthenticated={isAuthenticated} setAuthenticated={setAuthenticated} handlePause={handlePause} />} />
-            </Route> */}
-          {/* </Route> */}
           <Route exact path='/contact-boost-mobile' element={ <ContactUs/>}/>
           <Route exact path='/careers' element={ <CareersPage/> }/>
           <Route exact path='/internet' element={ <Internet/>}/>
@@ -110,7 +104,7 @@ function App() {
             <p>Contact Us</p>
           </div>
         </div>
-        <div id='home_contact' className="home_contact fixed bottom-5 right-5 border-2 rounded-md border-white w-80  bg-white flex items-center justify-center">
+        <div id="home_contact" className={`home_contact fixed  right-5 border-2 rounded-md border-white w-80 bg-white flex items-center justify-center  ${isContactOpen ? 'moveup' : 'movedown'}`}>
           <div className="text-white flex items-center justify-center gap-2">
             <ContactForm flag={true} handleContact={handleContact}/>
           </div>

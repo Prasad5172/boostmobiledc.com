@@ -14,7 +14,7 @@ function Location() {
                 </div>
                 <div className="md:basis-2/3 lg:basis-2/3 xl:basis-2/3 2xl:basis-2/3">
                   <div className="container ">
-                    <iframe className='w-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.844424683399!2d83.18880577508978!3d18.17221148285507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3bc3a42eccd367%3A0xb53a89724cfdcbee!2sThatipudi%20Reservoir!5e1!3m2!1sen!2sus!4v1714822236669!5m2!1sen!2sus" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className='w-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.844424683399!2d83.18880577508978!3d18.17221148285507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3bc3a42eccd367%3A0xb53a89724cfdcbee!2sThatipudi%20Reservoir!5e1!3m2!1sen!2sus!4v1714822236669!5m2!1sen!2sus"  style={{border:"0",height:"80vh"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
                   </div>
                 </div>
               </div>

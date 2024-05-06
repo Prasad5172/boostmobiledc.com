@@ -84,7 +84,7 @@ function ContactForm({flag,handleContact}) {
                         <p className="text-black">need to add recaptcha</p>
 
                         <div>
-                          <button className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none">
+                          <button className="hover:shadow-form rounded-md bg-black hover:bg-gray-400 py-3 px-8 text-base font-semibold text-white outline-none">
                             Submit
                           </button>
                         </div>

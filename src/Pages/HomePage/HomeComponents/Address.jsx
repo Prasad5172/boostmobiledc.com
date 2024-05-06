@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Address() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="">
@@ -14,10 +16,10 @@ function Address() {
                         <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">76 Eagle School Rd</p>
                         <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">Martinsburg, WV 25404</p>
                         <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">Telephone: (304) 267-6779</p>
-                        <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">Email: boostmobile@fijiwireless.com</p>
-                        <h1 className="mt-3 text-orange-500 font-bold lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">
+                        <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">Email: <a href="mailto:boostmobile@fijiwireless.com">boostmobile@fijiwireless.com</a> </p>
+                        <p onClick={() => navigate("/locations")} className="mt-3 text-orange-500 font-bold lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">
                             FIND A STORE NEAR YOU
-                        </h1>
+                        </p>
                     </div>
                 </div>
                 <div className=" flex justify-center">
