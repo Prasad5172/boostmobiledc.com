@@ -2,7 +2,7 @@ import React from 'react'
 import CarouselWithContent from '../../../Comp/CarouselWithContent'
 function Careers() {
   return (
-    <div className='bg-white'>
+    <div className='step bg-white'>
         <div className="" >
             <div className=" text-black flex justify-center">
                 <div className="container">

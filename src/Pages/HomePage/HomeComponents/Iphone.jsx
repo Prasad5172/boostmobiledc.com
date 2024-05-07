@@ -3,7 +3,7 @@ import React from 'react'
 function Iphone() {
   return (
     <>
-    <div className="" style={{ backgroundImage: "url('./HomePage/iphone-se-bg_d.webp')", backgroundRepeat: "no-repeat", backgroundSize:"cover"}}>
+    <div className="step" style={{ backgroundImage: "url('./HomePage/iphone-se-bg_d.webp')", backgroundRepeat: "no-repeat", backgroundSize:"cover"}}>
         <div className='w-full h-auto p-10 lg:p-20 xl:p-20 2xl:p-20'>
             <div className='grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2  text-white '>
                 <div className=''>

@@ -5,12 +5,12 @@ import { faHouseLaptop } from '@fortawesome/free-solid-svg-icons';
 function HomeSection() {
   return (
     <>
-      <div className="bg-orange-500">
-        <div className=' h-96 lg:h-80 xl:h-80 2xl:h-80  w-full' style={{
+      <div className="step bg-orange-500">
+        <div className=' h-96 lg:h-96 xl:h-96 2xl:h-96  w-full' style={{
           background:"url('./HomePage/home.webp')",
           backgroundRepeat:"no-repeat",
           backgroundSize:"cover",
-          backgroundPosition:"center"
+          backgroundPosition:"bottom"
         }}>
         </div>
         <div className='lg:h-1/2 md:h-1/2 h-1/2  flex justify-center'>
@@ -24,8 +24,8 @@ function HomeSection() {
             </div>
             <div className='font-bold text-white text-4xl lg:p-5 xl:p-5 2xl:p-5 pb-5'>
               <div className='font-bold text-white text-4xl lg:p-5 xl:p-5 2xl:p-5'>
-                <div className="text-white flex justify-center">
-                  <a href="/locations" className='lg:text-9xl xl:text-9xl 2xl:text-9xl text-8xl '>
+                <div className="text-white flex justify-center p-12">
+                  <a href="/locations" className='lg:text-9xl xl:text-9xl 2xl:text-9xl text-8xl scale-150 '>
                     <FontAwesomeIcon icon={faHouseLaptop} />
                   </a>
                 </div>

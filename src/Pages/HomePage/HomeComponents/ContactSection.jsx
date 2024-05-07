@@ -4,7 +4,7 @@ import ContactForm from "../../../Comp/ContactForm";
 function ContactSection() {
   return (
     <>
-      <div className="dark:bg-[#111920]">
+      <div className="step dark:bg-[#111920]">
         <div
           style={{
             background: "url('/HomePage/position-1-bg-d.webp')",

@@ -129,6 +129,44 @@ input[type='radio']:checked + label .font-normal {
   transition: all ease;
 }
 
+
+.et_pb_text_4 {
+  background-size: initial;
+  background-image: url("https://b2649695.smushcdn.com/2649695/wp-content/uploads/2022/01/image-25.jpg?lossy=0&strip=1&webp=1");
+  min-height: 350px;
+}
+.et_had_animation {
+  position: relative;
+}
+.et_pb_module {
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.nav-items {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
+.nav-items.open {
+  max-height: 100vh; /* Change to whatever height you want when the nav is open */
+}
+
+.text-shadow{
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+}
+
+.top-minus-25{
+  top: -25px;
+}
+.right-minus-25{
+  right: -25px;
+}
+
+
+
+
 @media (max-width:450px) {
   .grid-2-cols {
     grid-template-columns: repeat(1, minmax(0, 1fr));
