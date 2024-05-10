@@ -126,7 +126,7 @@ function App() {;
           <div>
               <div className='bg-white p-4'>
                 <div className='flex justify-end relative'>
-                    <div className='inline-block px-2 hover:bg-gray-500 rounded-full border-2 border-white border-orange-600  bg-black cursor-pointer absolute top-minus-25 right-minus-25' onClick={handleHours}>
+                    <div className='inline-block px-2 hover:bg-gray-500 rounded-full border-2 border-orange-600  bg-black cursor-pointer absolute top-minus-25 right-minus-25' onClick={handleHours}>
                       <FontAwesomeIcon icon={faXmark} style={{color:"white"}} />
                     </div>
                 </div>
