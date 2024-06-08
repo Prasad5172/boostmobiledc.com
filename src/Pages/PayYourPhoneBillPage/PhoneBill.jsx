@@ -34,7 +34,7 @@ function PhoneBill({place,city}) {
                   <PhoneBillContent place={place} city={city}/>
                 </div>
               </div>
-              <div className="my-10 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/3 flex justify-center flex-col">
+              <div className="my-10 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/3 flex flex-col">
                 <FormAboutTime/>
               </div>
             </div>

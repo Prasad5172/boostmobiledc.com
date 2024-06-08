@@ -2,7 +2,7 @@
 import React,{useState} from 'react'
 import { Routes, Route, useNavigate } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCommentDots,faXmark,faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faXmark,faPhone } from "@fortawesome/free-solid-svg-icons";
 import Address from "./Pages/HomePage/HomeComponents/Address";
 import CompanyFotter from "./Pages/HomePage/Fotter/CompanyFotter";
 import Fotter from "./Pages/HomePage/Fotter/Fotter";
@@ -61,24 +61,26 @@ function App() {;
           {/* <Route exact path='/careers' element={ <CareersPage/> }/> */}
           <Route exact path='/internet' element={ <Internet/>}/>
           <Route exact path='/locations' element={ <Location/>}/>
-          <Route exact path='/cell-phone-company-district-heights-md' element={ <CellCompany place={"District Heights"} city={"MD"} />}/>
+          <Route exact path='/cell-phone-company-district-heights-md' element={ <CellCompany place={"District Heights "} city={"MD"} />}/>
          
           
-          <Route exact path='/pay-as-you-go-phone-district-heights-md' element={ <PayAsYouGo place={"District Heights"} city={"MD"}/>}/>
+          <Route exact path='/pay-as-you-go-phone-district-heights-md' element={ <PayAsYouGo place={"District Heights "} city={"MD"}/>}/>
           
          
-          <Route exact path='/boost-mobile-phone-plans-district-heights-md' element={ <MobilePlans place={"District Heights"} city={"MD"}/>}/>
+          <Route exact path='/boost-mobile-phone-plans-district-heights-md' element={ <MobilePlans place={"District Heights "} city={"MD"}/>}/>
           
-          <Route exact path='/free-phone-district-heights-md' element={<FreePhone place={"District Heights"} city={"MD"}/>}/>
+          <Route exact path='/free-phone-district-heights-md' element={<FreePhone place={"District Heights "} city={"MD"}/>}/>
 
 
-          <Route exact path='/pay-your-phone-bill-district-heights-md' element={ <PhoneBill place={"District Heights"} city={"MD"}/>}/>
+          <Route exact path='/pay-your-phone-bill-district-heights-md' element={ <PhoneBill place={"District Heights "} city={"MD"}/>}/>
 
-          <Route exact path='/phone-plans-district-heights-md' element={<Plans place={"District Heights"} city={"MD"}/>}/>
+          <Route exact path='/phone-plans-district-heights-md' element={<Plans place={"District Heights "} city={"MD"}/>}/>
           
 
           <Route exact path='/privacy-policy/' element={ <Privacy/>}/>
           <Route exact path='*' element={<ErrorPage />} />
+          <Route exact path='*/*' element={<ErrorPage />} />
+          <Route exact path='*/*/*' element={<ErrorPage />} />
          </Routes>
         <Address/>
         <CompanyFotter/>

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 function MobilePlansContent({place,city}) {
   const navigate = useNavigate();
-  var towns = [["District heights","MD"]];
+  var towns = [["District heights ","MD"]];
   console.log(place.toLowerCase())
   function replaceSpacesWithHyphens(str) {
     return str.replace(/\s+/g, '-');
@@ -31,13 +31,13 @@ function MobilePlansContent({place,city}) {
                   <li key={ind}><p onClick={() => {
                     navigate(`/locations`)
                     scrollToTop()
-                    }} className='text-orange-500 hover:underline cursor-pointer'>Boost Mobile Phone Plans in {ele[0]}Full Address</p></li>
+                    }} className='text-orange-500 hover:underline cursor-pointer'>Boost Mobile Phone Plans in {ele[0]} Full Address</p></li>
                 )
             })
           }
         </ul>
-        <h1 className='font-bold my-4'>Similar Services We Offer:</h1>
-        <FAQs data={[{question:"Boost Cell Phone Deals",answer:"some answer",image:"BoostPlans/iStock-853324096_feat1-150x150.webp"}]}/>
+        {/* <h1 className='font-bold my-4'>Similar Services We Offer:</h1> */}
+        {/* <FAQs data={[{question:"Boost Cell Phone Deals",answer:"some answer",image:"BoostPlans/iStock-853324096_feat1-150x150.webp"}]}/> */}
     </div>
   )
 }

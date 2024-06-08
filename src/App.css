@@ -31,6 +31,10 @@
 .box2 {
   overflow-wrap: break-word;
 }
+.icon-container:hover .fa-icon {
+  color: #ff0000; /* Change this to the desired hover color */
+}
+
 @media (min-width:1024px) {
   .hero {
     transform: scale(4);

@@ -14,7 +14,7 @@ function Address() {
                         <h1 className="text-orange-500 font-bold lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center mb-4">CONTACT US</h1>
                         <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center"> Boost Mobile</p>
                         <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">5750 Silver Hill Road</p>
-                        <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">Distric heights,MD 2747</p>
+                        <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">District heights,MD 20747</p>
                         <p className="lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">Telephone: 3012785974</p>
                         <p onClick={() => navigate("/locations")} className="mt-3 text-orange-500 font-bold lg:text-start md:text-start sm:text-center xl:text-start 2xl:text-center text-center">
                             FIND A STORE NEAR YOU
