@@ -21,7 +21,7 @@ function MobilePlans({place,city}) {
                 background:"rgba(0, 0, 0, 0.5)"
               }}>
                 <div className="container  sm:p-20 md:p-40 lg:p-40 xl:p-40  2xl:p-40">
-                  <h1 className="font-bold text-[25px] md:text-[50px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px] text-white p-0 sm:p-0 md:p-0  lg:p-12 xl:p-12 2xl:p-12 text-center">Boost Mobile Phone Plans, {place}, {city == "WV" ? "West Virginia": city == "MD" ? "Maryland" : "Pennsylvania"}</h1>
+                  <h1 className="font-bold text-[25px] md:text-[50px] lg:text-[50px] xl:text-[50px] 2xl:text-[50px] text-white p-0 sm:p-0 md:p-0  lg:p-12 xl:p-12 2xl:p-12 text-center">Boost Mobile Phone Plans,<span className="font-bold">{place}-{city}</span></h1>
                 </div>
               </div>
               
@@ -34,7 +34,7 @@ function MobilePlans({place,city}) {
                     <MobilePlansContent place={place}/>
                   </div>
                 </div>
-                <div className="my-10 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/3 flex justify-center flex-col">
+                <div className="my-10 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/3 flex  flex-col">
                   <FormAboutTime/>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
-
+import { useNavigate } from "react-router-dom";
 function BoostPlans() {
+  const navigate = useNavigate()
   const imageContainerRef = useRef(null);
   const paraRef = useRef(null);
 
@@ -123,7 +124,13 @@ function BoostPlans() {
                   <div class="p-4 flex justify-center">
                     <a
                       class="bg-black hover:bg-gray-400 text-white font-bold py-3 px-7 rounded-full"
-                      href="/plans/"
+                      onClick={() => {
+                        navigate("/");
+                        window.scrollTo({
+                          top: 0,
+                          behavior: 'smooth' // Smooth scrolling animation
+                        });
+                      }}
                     >
                       Plan Details
                     </a>

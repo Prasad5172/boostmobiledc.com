@@ -1,0 +1,7 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/home/prasad/.amplify/awscloudformation/8s5D0ZtvXe"
+  }
+}

@@ -27,25 +27,21 @@ function ContactUs() {
     <BreadCrumb data={["Contact Us"]} length={1} />
     <div className="container mx-auto  md:my-5 lg:my-10 xl:my-10 2xl:my-10 flex justify-center flex-col">
     <div className='p-5'>
-        <div className='pl-20'>
+        <div className='lg:pl-20 xl:pl-20 2xl:pl-20 md:pl-10 '>
             <p className='font-semibold text-[28px]'>Contact us for more information</p>
             <p>If you have any questions about our services, or if you would like to request an estimate, please don’t hesitate to contact us using the information below. We look forward to serving you!</p>
         </div>
     </div>
-      <div className="flex lg:flex-row xl:flex-row 2xl:flex-row flex-col ">
-        <div className="lg:basis-2/3 xl:basis-2/3 2xl:basis-2/3">
-          <div className="container lg:pl-20 md:pl-15">
-          <ContactForm flag={false}/>
-          </div>
-        </div>
-        <div className="my-10 lg:basis-1/3 xl:basis-1/3 2xl:basis-1/3 flex justify-center flex-col">
+      <div className="flex lg:flex-row xl:flex-row 2xl:flex-row flex-col justify-center">
+        
+        <div className="my-10 lg:basis-2/3 xl:basis-2/3 2xl:basis-2/3 flex justify-center flex-col">
             <img src="./ContactUs/ExpandedMap_d.webp" alt="US Map" />
-            <p className='font-bold'>Boost Mobile</p>
-            <p>76 Eagle School Rd</p>
-            <p>Telephone: (304) 267-6779</p>
-            <p>Martinsburg, WV 25404</p>
+            <p className='font-bold text-center'>Boost Mobile</p>
+            <p className=' text-center'>5750 Silver Hill Road</p>
+            <p className=' text-center'>Distric heights,MD 2747</p>
+            <a className=' text-center'>Telephone: (301) 2785974</a>
             <hr className='border border-black my-5' />
-            <p className='font-bold mb-2'>Hours Of Operation</p>
+            <p className='font-bold mb-2  text-center'>Hours Of Operation</p>
             <Timings/>
         </div>
       </div>

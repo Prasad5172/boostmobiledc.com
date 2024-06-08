@@ -13,8 +13,8 @@ function HomePage() {
         <HomeSection/>
         <BoostPlans />
         <Iphone/>
-        <Careers/>
-        <ContactSection/>
+        {/* <Careers/> */}
+        {/* <ContactSection/> */}
     </>
   )
 }

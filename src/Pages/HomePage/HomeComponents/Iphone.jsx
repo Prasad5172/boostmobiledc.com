@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 function Iphone() {
+  const navigate = useNavigate();
   const freePhoneRef = useRef(null);
   const wrapperRef = useRef(null);
   const imageRef = useRef(null);
@@ -48,7 +51,9 @@ function Iphone() {
                       <h2 className='font-bold text-4xl my-5 lg:p-10 xl:p-10 2xl:p-10 text-center'>FREE PHONE</h2>
                       <h2 className='font-extrabold text-[20px] text-center'>When you Switch</h2>
                       <div class="p-5 text-center">
-                          <a class="bg-black hover:bg-gray-400 text-white font-bold py-3 px-7 rounded-full" href="/plans/">Call For Details</a>
+                          <a class="bg-black hover:bg-gray-400 text-white font-bold py-3 px-7 rounded-full" onClick={() => {
+                            navigate("/locations")
+                          }}>Call For Details</a>
                       </div>
                   </div>
                   <div className='flex justify-center free-phone-img' ref={imageWrapperRef}>

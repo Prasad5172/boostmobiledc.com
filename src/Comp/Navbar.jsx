@@ -62,7 +62,7 @@ function Navbar() {
               >
                 Internet
               </span>
-              <span
+              {/* <span
                 className={`mr-6 font-bold text-[22px] ${
                   active != 3 ? "hover:text-gray-500" : ""
                 }  cursor-pointer ${active == 3 ? "text-orange-600" : ""} `}
@@ -72,7 +72,7 @@ function Navbar() {
                 }}
               >
                 Careers
-              </span>
+              </span> */}
               <span
                 className={`mr-6 font-bold text-[22px] ${
                   active != 4 ? "hover:text-gray-500" : ""
@@ -157,7 +157,7 @@ function Navbar() {
                 Internet
               </p>
             </li>
-            <li className="hover:bg-gray-50 p-2">
+            {/* <li className="hover:bg-gray-50 p-2">
               <p
                 onClick={() => {
                   toggleMenu();
@@ -167,7 +167,7 @@ function Navbar() {
               >
                 Careers
               </p>
-            </li>
+            </li> */}
             <li className="hover:bg-gray-50 p-2">
               <p
                 onClick={() => {
