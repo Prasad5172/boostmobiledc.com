@@ -7,7 +7,6 @@ import HomeSection from './HomeComponents/Home'
 
 function HomePage() {
   
-
   return (
     <>
         <HomeSection/>

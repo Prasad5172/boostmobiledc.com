@@ -62,17 +62,7 @@ function Navbar() {
               >
                 Internet
               </span>
-              {/* <span
-                className={`mr-6 font-bold text-[22px] ${
-                  active != 3 ? "hover:text-gray-500" : ""
-                }  cursor-pointer ${active == 3 ? "text-orange-600" : ""} `}
-                onClick={() => {
-                  setActive(3);
-                  navigate("/careers");
-                }}
-              >
-                Careers
-              </span> */}
+              
               <span
                 className={`mr-6 font-bold text-[22px] ${
                   active != 4 ? "hover:text-gray-500" : ""
