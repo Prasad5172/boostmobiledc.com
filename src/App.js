@@ -52,7 +52,6 @@ function App() {;
           </a>
         </div>
         <header>
-          {/* <NavComp/> */}
           <Navbar/>
         </header>
         <Routes>
