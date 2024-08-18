@@ -46,7 +46,7 @@ function Internet() {
                         </div>
                     </div>
                     <div className="hidden   my-10 lg:basis-1/2 xl:basis-1/2 2xl:basis-1/2 lg:flex xl:flex 2xl:flex justify-center flex-col">
-                        <img src="./InternetPage/2.webp" alt="Internet Image" />
+                        <img src="./InternetPage/2.webp" alt="internet" />
                     </div>
                 </div>
                 <div className="mt-10 ">

@@ -19,7 +19,7 @@ const FAQ = ({ question, answer,image ,heading1,navigationLink}) => {
       {isOpen && (
         <div className="pl-4 pt-2 pb-4 text-gray-700">
           <div className='flex items-center flex-row'>
-            <img src={`${image}`} alt="image" className='w-20' />
+            <img src={`${image}`} alt="boost-mobile-topup" className='w-20' />
             <div className='pl-5'>
               <h1 className='font-bold mb-1'>{heading1}</h1>
               <p className='mb-1'>{answer}</p>

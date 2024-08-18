@@ -71,7 +71,7 @@ function BoostPlans() {
                     <div className="flex justify-center pb-6">
                       <img
                         src="./HomePage/NoContract_d.webp"
-                        alt="some image"
+                        alt="no contact"
                       ></img>
                     </div>
                     <div className="text-[20px] font-bold text-center">
@@ -84,7 +84,7 @@ function BoostPlans() {
                     <div className="flex justify-center pb-6 ">
                       <img
                         src="./HomePage/HotSpot_d.webp"
-                        alt="some image"
+                        alt="hotspot"
                       ></img>
                     </div>
                     <div className="text-[20px] font-bold text-center">
@@ -97,7 +97,7 @@ function BoostPlans() {
                     <div className="flex justify-center pb-6">
                       <img
                         src="./HomePage/Unlimited_d.webp"
-                        alt="some image"
+                        alt="unlimited talk"
                       ></img>
                     </div>
                     <div className="text-[20px] font-bold text-center">
@@ -110,7 +110,7 @@ function BoostPlans() {
                     <div className="flex justify-center pb-6">
                       <img
                         src="./HomePage/Nationwide_d.webp"
-                        alt="some image"
+                        alt="national wide"
                       ></img>
                     </div>
                     <div className="text-[20px] font-bold text-center">
@@ -125,7 +125,7 @@ function BoostPlans() {
                     <a
                       class="bg-black hover:bg-gray-400 text-white font-bold py-3 px-7 rounded-full"
                       onClick={() => {
-                        navigate("/");
+                        navigate("/locations");
                         window.scrollTo({
                           top: 0,
                           behavior: 'smooth' // Smooth scrolling animation

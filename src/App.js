@@ -137,7 +137,7 @@ function App() {;
           <table className="">
           <tbody>
             <tr>
-              <td className='text-center p-1 text-shadow text-base cursor-pointer flex items-center' onClick={handleHours}><img src="./ck_mobile.webp" className='scale-50 ' alt="" /> Hours </td>
+              <td className='text-center p-1 text-shadow text-base cursor-pointer flex items-center' onClick={handleHours}><img src="./ck_mobile.webp" className='scale-50 ' alt="time-icon" /> Hours </td>
             </tr>
           </tbody>
             

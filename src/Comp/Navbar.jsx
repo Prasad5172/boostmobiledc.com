@@ -25,7 +25,7 @@ function Navbar() {
               <img
                 className="h-16 mr-4"
                 src="./boost-fiji.webp" // Replace with your logo path
-                alt="Logo"
+                alt="logo"
               />
             </div>
             <div className=" text-black hidden lg:block xl:block 2xl:block ">

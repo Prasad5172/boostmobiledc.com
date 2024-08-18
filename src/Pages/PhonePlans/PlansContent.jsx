@@ -33,7 +33,7 @@ function PlansContent({place,city}) {
       </p>
       <img
         src="./Plans/iStock-1310617172res.jpg"
-        alt="image"
+        alt="plans"
         className="w-full mb-5"
       />
       <p className="text-[16px] mb-5">

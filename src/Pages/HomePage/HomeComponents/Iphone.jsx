@@ -57,7 +57,7 @@ function Iphone() {
                       </div>
                   </div>
                   <div className='flex justify-center free-phone-img' ref={imageWrapperRef}>
-                      <img ref={imageRef} src='./HomePage/amazing-deals_d.webp' alt='some image' />
+                      <img ref={imageRef} src='./HomePage/amazing-deals_d.webp' alt='mobiles' />
                   </div>
               </div>
           </div>
