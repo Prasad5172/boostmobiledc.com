@@ -57,7 +57,6 @@ function App() {;
         <Routes>
           <Route exact path='/' element={<HomePage />}/>
           <Route exact path='/contact-boost-mobile' element={ <ContactUs/>}/>
-          {/* <Route exact path='/careers' element={ <CareersPage/> }/> */}
           <Route exact path='/internet' element={ <Internet/>}/>
           <Route exact path='/locations' element={ <Location/>}/>
           <Route exact path='/cell-phone-company-district-heights-md' element={ <CellCompany place={"District Heights "} city={"MD"} />}/>
