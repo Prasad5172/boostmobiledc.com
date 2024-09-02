@@ -2,47 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
   margin: 0;
-  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
-@media (max-width:770px) {
+@media (max-width: 770px) {
   .invisible {
-    display:none;
+    display: none;
   }
 }
 
-.marginx-25px{
-  margin:0 25px 0 25px;
+.marginx-25px {
+  margin: 0 25px 0 25px;
 }
-.margint-20px{
+.margint-20px {
   margin-top: 20px;
 }
-.margint-10px{
+.margint-10px {
   margin-top: 10px;
 }
 
-.padding-50px{
+.padding-50px {
   padding: 50px;
 }
 /* Hide thumbnails */
 .thumbs-wrapper {
   display: none;
 }
-.carousel-status{
+.carousel-status {
   display: none;
 }
 /* Styles for left and right navigation buttons */
@@ -81,54 +78,54 @@ code {
   align-items: center;
   flex-direction: column;
 }
-.carousel .control-dots .dot{
+.carousel .control-dots .dot {
   background-color: #6b7280 !important;
 }
-nav{
+nav {
   padding-left: 0px !important;
 }
 /* Make the label bold when the radio button is checked, except for the one with ID full-time */
-input[type='radio']:checked + label .font-normal {
+input[type="radio"]:checked + label .font-normal {
   font-weight: bold;
 }
 .home_contact {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
   border-radius: 6px;
 }
-.home_contact{
+.home_contact {
   background-color: none !important;
 }
-.home_contact h1{
+.home_contact h1 {
   font-size: 0;
 }
-.home_contact .form_field{
+.home_contact .form_field {
   margin-bottom: 4px !important;
 }
-.home_contact .label{
+.home_contact .label {
   margin-bottom: 4px !important;
 }
-.home_contact .input_tag{
+.home_contact .input_tag {
   padding: 0.5rem !important;
 }
 .home_contact {
   transition: bottom 0.3s ease !important; /* Add transition for the 'bottom' property */
 }
-.home_contact .outer{
+.home_contact .outer {
   padding: 20px !important;
   padding-top: 10px !important;
   margin-block: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
-.moveup{
+.moveup {
   bottom: 1.25rem;
   transition: all ease;
 }
-.movedown{
+.movedown {
   bottom: -35rem;
   transition: all ease;
 }
-
 
 .et_pb_text_4 {
   background-size: initial;
@@ -153,25 +150,21 @@ input[type='radio']:checked + label .font-normal {
   max-height: 100vh; /* Change to whatever height you want when the nav is open */
 }
 
-.text-shadow{
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+.text-shadow {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
-.top-minus-25{
+.top-minus-25 {
   top: -25px;
 }
-.right-minus-25{
+.right-minus-25 {
   right: -25px;
 }
 
-
-
-
-@media (max-width:450px) {
+@media (max-width: 450px) {
   .grid-2-cols {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
