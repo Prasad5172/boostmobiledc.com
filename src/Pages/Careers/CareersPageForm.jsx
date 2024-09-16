@@ -6,7 +6,6 @@ function CareersPageForm() {
       <div className="space-y-12">
         <div className=" pb-6">
           <div className="mt-10 ">
-
             <label
               htmlFor="first-name"
               className="block  leading-6 text-gray-900 font-bold"
@@ -116,7 +115,9 @@ function CareersPageForm() {
                     value="Car"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle2" className=" ml-2 text-sm font-bold">9503 Lincoln Highway, Bedford</label>
+                  <label htmlFor="vehicle2" className=" ml-2 text-sm font-bold">
+                    9503 Lincoln Highway, Bedford
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -127,7 +128,9 @@ function CareersPageForm() {
                     value="Car"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle2" className=" ml-2 text-sm font-bold">2736 Plank Rd, Altoona</label>
+                  <label htmlFor="vehicle2" className=" ml-2 text-sm font-bold">
+                    2736 Plank Rd, Altoona
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -138,7 +141,9 @@ function CareersPageForm() {
                     value="Boat"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">1821 Pulaski Hwy, Edgewood</label>
+                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">
+                    1821 Pulaski Hwy, Edgewood
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -149,7 +154,9 @@ function CareersPageForm() {
                     value="Boat"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">4980 Gerrardstown, Inwood</label>
+                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">
+                    4980 Gerrardstown, Inwood
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -160,7 +167,9 @@ function CareersPageForm() {
                     value="Boat"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">2107 Pike St, Parkersburg</label>
+                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">
+                    2107 Pike St, Parkersburg
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -171,7 +180,9 @@ function CareersPageForm() {
                     value="Boat"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">1850 Apple Blossom Dr, Winchest</label>
+                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">
+                    1850 Apple Blossom Dr, Winchest
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -182,7 +193,9 @@ function CareersPageForm() {
                     value="Boat"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">1201 Dual Highway, Hagerstown</label>
+                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">
+                    1201 Dual Highway, Hagerstown
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -206,7 +219,9 @@ function CareersPageForm() {
                     value="Boat"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">261 Mercer Mall Rd, Bluefield</label>
+                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">
+                    261 Mercer Mall Rd, Bluefield
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -217,7 +232,9 @@ function CareersPageForm() {
                     value="Boat"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">1275 W Patrick St, Frederick</label>
+                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">
+                    1275 W Patrick St, Frederick
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -242,7 +259,10 @@ function CareersPageForm() {
                     value="Boat"
                     className="mt-2"
                   />
-                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold"> 1013 Maryland Ave., Hagerstown</label>
+                  <label htmlFor="vehicle3" className=" ml-2 text-sm font-bold">
+                    {" "}
+                    1013 Maryland Ave., Hagerstown
+                  </label>
                   <br />
                 </li>
                 <li className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 inline-block">
@@ -266,14 +286,28 @@ function CareersPageForm() {
               Which shift are you interested in?*
             </p>
             <div className="mt-2 mb-6">
-              <p className="text-sm mb-2">Select one of the following shift options</p>
-              <input type="radio" id="full-time" name="shift" value="HTML" className="cursor-pointer" />
+              <p className="text-sm mb-2">
+                Select one of the following shift options
+              </p>
+              <input
+                type="radio"
+                id="full-time"
+                name="shift"
+                value="HTML"
+                className="cursor-pointer"
+              />
               <label htmlFor="full-time" className="cursor-pointer ml-2">
                 <span className="font-normal">Full-Time (32-40 Hours)</span>
               </label>
 
               <br />
-              <input type="radio" id="part-time" name="shift" value="CSS" className="cursor-pointer" />
+              <input
+                type="radio"
+                id="part-time"
+                name="shift"
+                value="CSS"
+                className="cursor-pointer"
+              />
               <label htmlFor="part-time" className="cursor-pointer ml-2">
                 <span className="font-normal">Part-Time (Under 32 Hours)</span>
               </label>
@@ -288,11 +322,27 @@ function CareersPageForm() {
                 Select one of the following options, if you have chosen a
                 part-time position
               </p>
-              <input type="radio" id="long" name="hours" value="HTML" className="cursor-pointer" />
-              <label htmlFor="long" className="cursor-pointer ml-2 mb-2"><span className="font-normal"> 25 Hours - 31 Hours</span></label>
+              <input
+                type="radio"
+                id="long"
+                name="hours"
+                value="HTML"
+                className="cursor-pointer"
+              />
+              <label htmlFor="long" className="cursor-pointer ml-2 mb-2">
+                <span className="font-normal"> 25 Hours - 31 Hours</span>
+              </label>
               <br />
-              <input type="radio" id="short" name="hours" value="CSS" className="cursor-pointer"/>
-              <label htmlFor="short" className="cursor-pointer ml-2"><span className="font-normal">18 Hours - 25 Hours</span></label>
+              <input
+                type="radio"
+                id="short"
+                name="hours"
+                value="CSS"
+                className="cursor-pointer"
+              />
+              <label htmlFor="short" className="cursor-pointer ml-2">
+                <span className="font-normal">18 Hours - 25 Hours</span>
+              </label>
               <br />
             </div>
 
@@ -300,21 +350,72 @@ function CareersPageForm() {
               Position Applied for*
             </p>
             <div className="mt-2 mb-6">
-              <p className="text-sm mb-2">Please select one of the following options</p>
-              <input type="radio" id="sales_representative" name="role" value="HTML" className="cursor-pointer" />
-              <label htmlFor="sales_representative"><span className="font-normal ml-2 cursor-pointer"> Sales Representative</span></label>
+              <p className="text-sm mb-2">
+                Please select one of the following options
+              </p>
+              <input
+                type="radio"
+                id="sales_representative"
+                name="role"
+                value="HTML"
+                className="cursor-pointer"
+              />
+              <label htmlFor="sales_representative">
+                <span className="font-normal ml-2 cursor-pointer">
+                  {" "}
+                  Sales Representative
+                </span>
+              </label>
               <br />
-              <input type="radio" id="store_manager" name="role" value="CSS" className="cursor-pointer" />
-              <label htmlFor="store_manager"><span className="font-normal ml-2 cursor-pointer">Store Manager</span></label>
+              <input
+                type="radio"
+                id="store_manager"
+                name="role"
+                value="CSS"
+                className="cursor-pointer"
+              />
+              <label htmlFor="store_manager">
+                <span className="font-normal ml-2 cursor-pointer">
+                  Store Manager
+                </span>
+              </label>
               <br />
-              <input type="radio" id="district_manager" name="role" value="CSS" className="cursor-pointer" />
-              <label htmlFor="district_manager"><span className="font-normal ml-2 cursor-pointer">District Manager</span></label>
+              <input
+                type="radio"
+                id="district_manager"
+                name="role"
+                value="CSS"
+                className="cursor-pointer"
+              />
+              <label htmlFor="district_manager">
+                <span className="font-normal ml-2 cursor-pointer">
+                  District Manager
+                </span>
+              </label>
               <br />
-              <input type="radio" id="bank_office" name="role" value="CSS" className="cursor-pointer"/>
-              <label htmlFor="bank_office"><span className="font-normal ml-2 cursor-pointer">Back Office</span></label>
+              <input
+                type="radio"
+                id="bank_office"
+                name="role"
+                value="CSS"
+                className="cursor-pointer"
+              />
+              <label htmlFor="bank_office">
+                <span className="font-normal ml-2 cursor-pointer">
+                  Back Office
+                </span>
+              </label>
               <br />
-              <input type="radio" id="warehouse" name="role" value="CSS" className="cursor-pointer"/>
-              <label htmlFor="warehouse"><span className="font-normal ml-2">Warehouse/Inventory</span></label>
+              <input
+                type="radio"
+                id="warehouse"
+                name="role"
+                value="CSS"
+                className="cursor-pointer"
+              />
+              <label htmlFor="warehouse">
+                <span className="font-normal ml-2">Warehouse/Inventory</span>
+              </label>
               <br />
             </div>
 
@@ -322,11 +423,27 @@ function CareersPageForm() {
               Have you ever been employed by this company?
             </p>
             <div className="mt-2 mb-6">
-              <input type="radio" id="employee_yes" name="employee" value="yes" className="cursor-pointer" />
-              <label htmlFor="employee_yes"><span className="font-normal cursor-pointer ml-2">Yes</span>  </label>
+              <input
+                type="radio"
+                id="employee_yes"
+                name="employee"
+                value="yes"
+                className="cursor-pointer"
+              />
+              <label htmlFor="employee_yes">
+                <span className="font-normal cursor-pointer ml-2">Yes</span>{" "}
+              </label>
               <br />
-              <input type="radio" id="employee_no" name="employee" value="no" className="cursor-pointer" />
-              <label htmlFor="employese_no"><span className="font-normal cursor-pointer ml-2">No</span> </label>
+              <input
+                type="radio"
+                id="employee_no"
+                name="employee"
+                value="no"
+                className="cursor-pointer"
+              />
+              <label htmlFor="employese_no">
+                <span className="font-normal cursor-pointer ml-2">No</span>{" "}
+              </label>
               <br />
             </div>
 
@@ -352,7 +469,9 @@ function CareersPageForm() {
               Education Level*
             </p>
             <div className="mt-2 mb-6">
-              <p className="mb-2 text-sm">Select one or more of the following options</p>
+              <p className="mb-2 text-sm">
+                Select one or more of the following options
+              </p>
               <ul>
                 <li className="w-full ">
                   <input
@@ -362,7 +481,9 @@ function CareersPageForm() {
                     value="Bike"
                     className="cursor-pointer"
                   />
-                  <label htmlFor="high_school" className=" ml-2 cursor-pointer"><span className="font-semibold">High School Diploma</span> </label>
+                  <label htmlFor="high_school" className=" ml-2 cursor-pointer">
+                    <span className="font-semibold">High School Diploma</span>{" "}
+                  </label>
                   <br />
                 </li>
                 <li className="w-full ">
@@ -373,7 +494,9 @@ function CareersPageForm() {
                     value="Bike"
                     className="cursor-pointer"
                   />
-                  <label htmlFor="college" className=" ml-2 cursor-pointer"><span className="font-semibold">College</span></label>
+                  <label htmlFor="college" className=" ml-2 cursor-pointer">
+                    <span className="font-semibold">College</span>
+                  </label>
                   <br />
                 </li>
                 <li className="w-full">
@@ -384,7 +507,13 @@ function CareersPageForm() {
                     value="Car"
                     className="cursor-pointer"
                   />
-                  <label htmlFor="graduate_professional" className=" ml-2 cursor-pointer"> <span className="font-semibold">Graduate/Professional</span></label>
+                  <label
+                    htmlFor="graduate_professional"
+                    className=" ml-2 cursor-pointer"
+                  >
+                    {" "}
+                    <span className="font-semibold">Graduate/Professional</span>
+                  </label>
                   <br />
                 </li>
                 <li className="w-full">
@@ -395,7 +524,15 @@ function CareersPageForm() {
                     value="Car"
                     className="cursor-pointer"
                   />
-                  <label htmlFor="trade_correspondence" className=" ml-2 cursor-pointer"> <span className="font-semibold">Trade or Correspondence</span></label>
+                  <label
+                    htmlFor="trade_correspondence"
+                    className=" ml-2 cursor-pointer"
+                  >
+                    {" "}
+                    <span className="font-semibold">
+                      Trade or Correspondence
+                    </span>
+                  </label>
                   <br />
                 </li>
                 <li className="w-full">
@@ -406,7 +543,9 @@ function CareersPageForm() {
                     value="other"
                     className="cursor-pointer"
                   />
-                  <label htmlFor="other" className=" ml-2 cursor-pointer"><span className="font-semibold">Other</span></label>
+                  <label htmlFor="other" className=" ml-2 cursor-pointer">
+                    <span className="font-semibold">Other</span>
+                  </label>
                   <br />
                 </li>
               </ul>
@@ -439,7 +578,8 @@ function CareersPageForm() {
             </label>
             <div className="mt-2 mb-6">
               <p className="mb-2 text-sm">
-              Enter as much information you can about your previous employer (employer name, phone number, dates employed, etc.)
+                Enter as much information you can about your previous employer
+                (employer name, phone number, dates employed, etc.)
               </p>
               <textarea
                 id="comment"
@@ -450,22 +590,41 @@ function CareersPageForm() {
             </div>
 
             <p className="block font-bold leading-6 text-gray-900">
-            May We Contact?
+              May We Contact?
             </p>
             <div className="mt-2 mb-6">
-              <input type="radio" id="contact_yes" name="contact" value="HTML" className="cursor-pointer" />
-              <label htmlFor="contact_yes" className="cursor-pointer ml-2"><span className="font-normal">Yes</span>  </label>
+              <input
+                type="radio"
+                id="contact_yes"
+                name="contact"
+                value="HTML"
+                className="cursor-pointer"
+              />
+              <label htmlFor="contact_yes" className="cursor-pointer ml-2">
+                <span className="font-normal">Yes</span>{" "}
+              </label>
               <br />
-              <input type="radio" id="contact_no" name="contact" value="CSS" className="cursor-pointer" />
-              <label htmlFor="contact_no" className="cursor-pointer ml-2"><span className="font-normal">No</span> </label>
+              <input
+                type="radio"
+                id="contact_no"
+                name="contact"
+                value="CSS"
+                className="cursor-pointer"
+              />
+              <label htmlFor="contact_no" className="cursor-pointer ml-2">
+                <span className="font-normal">No</span>{" "}
+              </label>
               <br />
             </div>
 
             <div className="mt-2 mb-6">
-            <label
-              htmlFor="contact_reason"
-              class="block mb-2 font-bold text-gray-900 dark:text-white"
-            > If no, why not?</label>
+              <label
+                htmlFor="contact_reason"
+                class="block mb-2 font-bold text-gray-900 dark:text-white"
+              >
+                {" "}
+                If no, why not?
+              </label>
               <input
                 type="text"
                 name="contact_reason"
@@ -475,21 +634,36 @@ function CareersPageForm() {
               />
             </div>
 
-
             <p className="block font-bold leading-6 text-gray-900">
-            Were you referred by one of our employees to apply?*
+              Were you referred by one of our employees to apply?*
             </p>
             <div className="mt-2 mb-6">
-              <p className="mb-2 text-sm">Select one of the following options</p>
-              <input type="radio" id="referal_yes" name="referal" value="HTML" className="cursor-pointer"/>
-              <label htmlFor="referal_yes" className="ml-2 cursor-pointer"><span className="font-normal ">Yes</span>  </label>
+              <p className="mb-2 text-sm">
+                Select one of the following options
+              </p>
+              <input
+                type="radio"
+                id="referal_yes"
+                name="referal"
+                value="HTML"
+                className="cursor-pointer"
+              />
+              <label htmlFor="referal_yes" className="ml-2 cursor-pointer">
+                <span className="font-normal ">Yes</span>{" "}
+              </label>
               <br />
-              <input type="radio" id="referal_no" name="referal" value="CSS"  className="cursor-pointer"/>
-              <label htmlFor="referal_no" className="ml-2 cursor-pointer"><span className="font-normal">No</span> </label>
+              <input
+                type="radio"
+                id="referal_no"
+                name="referal"
+                value="CSS"
+                className="cursor-pointer"
+              />
+              <label htmlFor="referal_no" className="ml-2 cursor-pointer">
+                <span className="font-normal">No</span>{" "}
+              </label>
               <br />
             </div>
-
-
 
             <label
               htmlFor="first-name"
@@ -498,9 +672,7 @@ function CareersPageForm() {
               If yes, Provide name and position of employee.
             </label>
             <div className="mt-2 mb-6">
-              <p className="mb-2 text-sm">
-                If no, provide "N/A"
-              </p>
+              <p className="mb-2 text-sm">If no, provide "N/A"</p>
               <input
                 type="text"
                 name="referal_name"
@@ -518,7 +690,7 @@ function CareersPageForm() {
             </label>
             <div className="mt-2 mb-6">
               <p className="mb-2 text-sm">
-              Enter your reference name, phone number, occupation, years known
+                Enter your reference name, phone number, occupation, years known
               </p>
               <textarea
                 id="reference_1"
@@ -536,7 +708,7 @@ function CareersPageForm() {
             </label>
             <div className="mt-2 mb-6">
               <p className="mb-2 text-sm">
-              Enter your reference name, phone number, occupation, years known
+                Enter your reference name, phone number, occupation, years known
               </p>
               <textarea
                 id="reference_2"
@@ -554,7 +726,7 @@ function CareersPageForm() {
             </label>
             <div className="mt-2 mb-6">
               <p className="mb-2 text-sm">
-              Enter your reference name, phone number, occupation, years known
+                Enter your reference name, phone number, occupation, years known
               </p>
               <textarea
                 id="reference_3"
